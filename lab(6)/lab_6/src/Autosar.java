@@ -23,7 +23,7 @@ public class Autosar implements Comparable<Autosar>{
     public Autosar(){}
     @Override
     public String toString(){
-        return "    <CONTAINER UUID=" + this.getContainerID() + ">\n"
+        return "    <CONTAINER " + this.getContainerID() + ">\n"
                 + "        <SHORT-NAME>Container" + this.getShortName() + "</SHORT-NAME>\n"
                 +"        <LONG-NAME>" + this.getLongName() + "</LONG-NAME>\n"
                 +"    </CONTAINER>\n";
