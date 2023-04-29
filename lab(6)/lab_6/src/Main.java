@@ -26,7 +26,7 @@ public class Main {
                     String s=scanner.nextLine();
                     String shortName=s.substring(s.indexOf("r")+1,s.indexOf("</"));
                     String l=scanner.nextLine();
-                    String longName=l.substring(s.indexOf(">")+1,s.indexOf("</"));
+                    String longName=l.substring(l.indexOf(">")+1,l.indexOf("</"));
                     Autosar auto=new Autosar();
                     auto.setContainerID(containerID);
                     auto.setShortName(shortName);
